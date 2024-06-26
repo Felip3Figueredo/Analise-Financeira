@@ -1,0 +1,12 @@
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\bin\Debug\net8.0\Infra.deps.json
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\bin\Debug\net8.0\Infra.dll
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\bin\Debug\net8.0\Infra.pdb
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.sourcelink.json
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.dll
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\refint\Infra.dll
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\Infra.pdb
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Infra\obj\Debug\net8.0\ref\Infra.dll

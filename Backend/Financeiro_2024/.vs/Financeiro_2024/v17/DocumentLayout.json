@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\entidades\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\enums\\enumtipodespesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\enums\\enumtipodespesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\entidades\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\entidades\\usuariosistemafinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\usuariosistemafinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\entidades\\sistemafinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\sistemafinanceiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\notificacoes\\notifica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\notificacoes\\notifica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise financeira\\backend\\financeiro_2024\\entities\\entidades\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnumTipoDespesa.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Enums\\EnumTipoDespesa.cs",
+              "RelativeDocumentMoniker": "Entities\\Enums\\EnumTipoDespesa.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Enums\\EnumTipoDespesa.cs",
+              "RelativeToolTip": "Entities\\Enums\\EnumTipoDespesa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:48:45.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Despesa.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Despesa.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\Despesa.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Despesa.cs",
+              "RelativeToolTip": "Entities\\Entidades\\Despesa.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:46:06.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\Categoria.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "Entities\\Entidades\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:41:49.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioSistemaFinanceiro.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\UsuarioSistemaFinanceiro.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\UsuarioSistemaFinanceiro.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\UsuarioSistemaFinanceiro.cs",
+              "RelativeToolTip": "Entities\\Entidades\\UsuarioSistemaFinanceiro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:38:13.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SistemaFinanceiro.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\SistemaFinanceiro.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\SistemaFinanceiro.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\SistemaFinanceiro.cs",
+              "RelativeToolTip": "Entities\\Entidades\\SistemaFinanceiro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:35:01.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Base.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Base.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\Base.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Base.cs",
+              "RelativeToolTip": "Entities\\Entidades\\Base.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:33:01.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Notifica.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Notificacoes\\Notifica.cs",
+              "RelativeDocumentMoniker": "Entities\\Notificacoes\\Notifica.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Notificacoes\\Notifica.cs",
+              "RelativeToolTip": "Entities\\Notificacoes\\Notifica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:24:06.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\ApplicationUser.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\ApplicationUser.cs",
+              "RelativeToolTip": "Entities\\Entidades\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T21:20:52.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

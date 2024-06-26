@@ -1,0 +1,12 @@
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\bin\Debug\net8.0\Helpers.deps.json
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\bin\Debug\net8.0\Helpers.dll
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\bin\Debug\net8.0\Helpers.pdb
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfo.cs
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.sourcelink.json
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.dll
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\refint\Helpers.dll
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\Helpers.pdb
+D:\Desenvolvimento\Analise Financeira\Backend\Financeiro_2024\Helpers\obj\Debug\net8.0\ref\Helpers.dll
