@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj": {}
+    "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj": {
+    "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Helpers\\Helpers.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Analise Financeira\\Backend\\Financeiro_2024\\Helpers\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,26 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
