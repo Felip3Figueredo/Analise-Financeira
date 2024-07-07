@@ -35,11 +35,14 @@ namespace WebApi.Controllers
 
             if (result.Succeeded)
             {
-                var token = new TokenJWTBuilder().AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678")).AddSubject("Desenvolvedor Felipe Figueredo")
-                    .AddIssuer("Teste.Security.Bearer")
-                    .AddClaim("UsuarioAPINumero", "1")
-                    .AddExpiry(5)
-                    .Builder();
+                var token = new TokenJWTBuilder()
+                    .AddSecurityKey(JwtSecurityKey.Create("SecretKey-12345678901234567890123456"))
+                 .AddSubject("Canal Dev Net Core")
+                 .AddIssuer("Teste.Securiry.Bearer")
+                 .AddAudience("Teste.Securiry.Bearer")
+                 .AddClaim("UsuarioAPINumero", "1")
+                 .AddExpiry(5)
+                 .Builder();
 
                 return Ok(token.value);
             }

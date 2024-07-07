@@ -20,7 +20,7 @@ namespace Infra.Repositorio
             _OptionBuilder = new DbContextOptions<ContextBase>();
         }
 
-        public async Task<List<SistemaFinanceiro>> ListaSistemaFinanceiro(string emailUsuario)
+        public async Task<List<SistemaFinanceiro>> ListaSistemasUsuario(string emailUsuario)
         {
             using (var banco = new ContextBase(_OptionBuilder))
             {
