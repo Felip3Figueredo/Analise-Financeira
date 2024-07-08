@@ -35,7 +35,7 @@ builder.Services.AddSingleton<InterfaceSistemaFinanceiro, RepositorioSistemaFina
 
 // Seriços Dominio
 builder.Services.AddSingleton<ICategoriaService, CategoriaServico>();
-builder.Services.AddSingleton<IDespesaServico, DespesaServico>();
+builder.Services.AddSingleton<IDespesaService, DespesaServico>();
 builder.Services.AddSingleton<IUsuarioSistemaFinanceiroServico, UsuarioSistemaFinanceiroServico>();
 builder.Services.AddSingleton<ISistemaFinanceiroServico, SistemaFinanceiroServico>();
 
