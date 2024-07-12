@@ -3,11 +3,18 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "meu-financeiro": {
+    "meu-financeiro-front": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
         }
       },
       "root": "",
@@ -17,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/meu-financeiro",
+            "outputPath": "dist/meu-financeiro-front",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -34,12 +41,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -69,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "meu-financeiro:build:production"
+              "buildTarget": "meu-financeiro-front:build:production"
             },
             "development": {
-              "buildTarget": "meu-financeiro:build:development"
+              "buildTarget": "meu-financeiro-front:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,6 +107,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "0d705e8a-8e9d-4cb2-a469-423d9d3149a7"
   }
 }
