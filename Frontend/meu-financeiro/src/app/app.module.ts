@@ -7,6 +7,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarModule } from './components/navbar/navbar.module';
 
 @NgModule({
   declarations: [
