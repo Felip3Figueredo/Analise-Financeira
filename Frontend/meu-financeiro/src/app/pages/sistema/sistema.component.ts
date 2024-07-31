@@ -35,5 +35,7 @@ export class SistemaComponent {
     debugger
 
     var dados = this.dadosForm();
+
+    alert(dados["name"].value)
   }
 }

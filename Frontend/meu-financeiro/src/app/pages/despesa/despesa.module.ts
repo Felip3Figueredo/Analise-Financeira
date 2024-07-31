@@ -4,6 +4,8 @@ import { NavbarModule } from '../../components/navbar/navbar.module';
 import { SidebarModule } from '../../components/sidebar/sidebar.module';
 import { DespesaRoutingModule } from './despesa-routing.module';
 import { DespesaComponent } from './despesa.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule(
     {
@@ -13,7 +15,10 @@ import { DespesaComponent } from './despesa.component';
             CommonModule,
             DespesaRoutingModule,
             NavbarModule,
-            SidebarModule
+            SidebarModule,
+            FormsModule,
+            ReactiveFormsModule,
+            NgSelectModule
         ]
     }
 )
