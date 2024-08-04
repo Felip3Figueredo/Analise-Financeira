@@ -36,7 +36,8 @@ namespace Infra.Configuracao
 
         public string ObtenhaStringConexao()
         {
-            return "Data Source=localhost;Initial Catalog=FINANCEIRO_2024;Integrated Security=False;User ID=sa;Password=Murilo1023@;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            return "Server=localhost\\SQLEXPRESS;Database=FINANCEIRO_2024;User Id=sa;Password=Murilo1023@;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+
         }
     }
 }

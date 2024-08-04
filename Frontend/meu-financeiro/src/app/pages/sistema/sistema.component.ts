@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { MenuService } from '../../services/menu.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { SistemaFinanceiro } from '../../models/SistemaFinanceiro';
+import { SistemaService } from '../../services/sistema.service';
 
 @Component({
   selector: 'app-sistema',
@@ -8,7 +10,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrl: './sistema.component.scss'
 })
 export class SistemaComponent {
-  constructor (public menuService: MenuService, public formBuilder: FormBuilder) {
+  constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService) {
 
   }
 
@@ -36,6 +38,33 @@ export class SistemaComponent {
 
     var dados = this.dadosForm();
 
-    alert(dados["name"].value)
+    let item = new SistemaFinanceiro();
+    
+    item.Nome = dados["name"].value;
+    item.id = 0;
+    item.Mes = 0;
+    item.Ano = 0;
+    item.DiaFechamento = 0;
+    item.GerarCopiaDespesa = true;
+    item.MesCopia = 0;
+    item.AnoCopia = 0;
+
+
+
+    this.sistemaService.AdicionarSistemaFinanceiro(item)
+    .subscribe((response: SistemaFinanceiro) => {
+  
+      this.sistemaForm.reset();
+
+      this.sistemaService.CadastrarUsuarioNoSistema(response.Id,"valdir@valdir.com")
+      .subscribe((response: any) => {
+        debugger
+      }, (error) => console.error(error),
+        () => { })
+
+    }, (error) => console.error(error),
+      () => { })
+
+
   }
 }

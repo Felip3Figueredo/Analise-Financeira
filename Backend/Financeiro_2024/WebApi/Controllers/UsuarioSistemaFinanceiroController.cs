@@ -9,7 +9,6 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class UsuarioSistemaFinanceiroController : ControllerBase
     {
         private readonly InterfaceUsuarioSistemaFinanceiro _InterfaceUsuarioSistemaFinanceiro;
@@ -28,9 +27,9 @@ namespace WebApi.Controllers
             return await _InterfaceUsuarioSistemaFinanceiro.ListaUsuariosSistemaFinanceiro(IdSistema);
         }
 
-        [HttpPost("/api/CadatraUsuarioNoSistema")]
+        [HttpPost("/api/CadastrarUsuarioNoSistema")]
         [Produces("application/json")]
-        public async Task<object> CadatraUsuarioNoSistema(int idSistema, string emailUsuario)
+        public async Task<object> CadastrarUsuarioNoSistema(int idSistema, string emailUsuario)
         {
             try
             {

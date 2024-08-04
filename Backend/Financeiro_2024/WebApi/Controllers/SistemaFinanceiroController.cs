@@ -9,7 +9,6 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class SistemaFinanceiroController : ControllerBase
     {
         private readonly InterfaceSistemaFinanceiro _InterfaceSistemaFinanceiro;
@@ -33,8 +32,8 @@ namespace WebApi.Controllers
         public async Task<object> AdicionarSistemaFinanceiro(SistemaFinanceiro sistemaFinanceiro)
         {
             await _ISistemaFinanceiroServico.AdicionarSistemaFinanceiro(sistemaFinanceiro);
-
-            return Task.FromResult(sistemaFinanceiro);
+            var teste = Task.FromResult(sistemaFinanceiro);
+            return teste.Result;
         }
 
         [HttpPut("/api/AtualizarSistemaFinanceiro")]
