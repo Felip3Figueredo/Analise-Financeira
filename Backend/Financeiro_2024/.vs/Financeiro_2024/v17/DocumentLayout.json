@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\usuariosistemafinanceirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usuariosistemafinanceirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\despesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\despesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\sistemafinanceirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\sistemafinanceirocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\despesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\despesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F7B4477-28EA-4370-9972-1D9B91A06421}|Domain\\Domain.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\domain\\interfaces\\interfaceservicos\\idespesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\entities\\entidades\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA005FA8-10E9-422D-A536-6C160EA00B50}|Entities\\Entities.csproj|solutionrelative:entities\\entidades\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,67 +59,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioSistemaFinanceiroController.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\UsuarioSistemaFinanceiroController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsuarioSistemaFinanceiroController.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\UsuarioSistemaFinanceiroController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UsuarioSistemaFinanceiroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T01:24:07.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SistemaFinanceiroController.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\SistemaFinanceiroController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\SistemaFinanceiroController.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\SistemaFinanceiroController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\SistemaFinanceiroController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T01:23:54.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwBsAAAAIAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwCEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T17:00:13.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\TokenController.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\TokenController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCUAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T22:50:16.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T22:28:24.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Categoria.cs",
-              "RelativeDocumentMoniker": "Entities\\Entidades\\Categoria.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Categoria.cs",
-              "RelativeToolTip": "Entities\\Entidades\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T22:39:00.307Z"
+              "WhenOpened": "2024-07-31T17:00:13.73Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Despesa.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Despesa.cs",
-              "RelativeDocumentMoniker": "Entities\\Entidades\\Despesa.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Despesa.cs",
-              "RelativeToolTip": "Entities\\Entidades\\Despesa.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAjwBwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T22:30:14.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DespesaServico.cs",
               "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Domain\\Servicos\\DespesaServico.cs",
               "RelativeDocumentMoniker": "Domain\\Servicos\\DespesaServico.cs",
@@ -123,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IDespesaService.cs",
               "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Domain\\Interfaces\\InterfaceServicos\\IDespesaService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\InterfaceServicos\\IDespesaService.cs",
@@ -141,21 +125,69 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\DespesasController.cs",
               "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\DespesasController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\DespesasController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAAA4AAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAA7wAkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T22:05:36.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\CategoriaController.cs",
               "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAswEMAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T21:56:02.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Despesa.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Despesa.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\Despesa.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Despesa.cs",
+              "RelativeToolTip": "Entities\\Entidades\\Despesa.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAjwBwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:30:14.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "Entities\\Entidades\\Categoria.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "Entities\\Entidades\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:39:00.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TokenController.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T22:50:16.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:28:24.449Z"
             }
           ]
         }
