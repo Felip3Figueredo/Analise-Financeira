@@ -21,9 +21,10 @@ namespace WebApi.Controllers
 
         [HttpGet("/api/ListarCategoriaUsuario")]
         [Produces("application/json")]
-        public async Task<object> ListarCategoriaUsuario(string emailUsuario)
+        public async Task<IActionResult> ListarCategoriaUsuario(string emailUsuario)
         {
-            return _InterfaceCategoria.ListarCategoriaUsuario(emailUsuario);
+            var categorias = await _InterfaceCategoria.ListarCategoriaUsuario(emailUsuario);
+            return Ok(categorias);  // Properly wrap the result in an IActionResult
         }
 
         [HttpPost("/api/AdicionarCategoria")]

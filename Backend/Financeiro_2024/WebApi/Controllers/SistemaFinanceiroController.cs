@@ -24,7 +24,7 @@ namespace WebApi.Controllers
         [Produces("application/json")]
         public async Task<object> ListaSistemasUsuario(string emailUsuario)
         {
-            return await _InterfaceSistemaFinanceiro.ListaSistemasUsuario(emailUsuario);
+            return await _InterfaceSistemaFinanceiro.ListaSistemasUsuario(emailUsuario); ;
         }
 
         [HttpPost("/api/AdicionarSistemaFinanceiro")]

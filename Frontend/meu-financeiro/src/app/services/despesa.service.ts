@@ -8,7 +8,7 @@ import { Despesa } from "../models/Despesa";
 })
 
 
-export class CategoriaService {
+export class DespesaService {
     
     constructor(private httpClient: HttpClient) 
     {

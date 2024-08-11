@@ -23,6 +23,6 @@ export class CategoriaService {
 
     ListarCategoriaUsuario(emailUsuario:string)
     {
-        this.httpClient.get(`${this.baseURL}/ListarCategoriaUsuario?emailUsuario=${emailUsuario}`)
+        return this.httpClient.get(`${this.baseURL}/ListarCategoriaUsuario?emailUsuario=${emailUsuario}`)
     }
 }

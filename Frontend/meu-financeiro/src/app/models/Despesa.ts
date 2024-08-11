@@ -12,4 +12,8 @@ export class Despesa {
     pago: boolean;
     despesaAtrasada: boolean;
     idCategoria: number;
+
+    nomePropriedade:string="";
+    mensagem:string = "";
+    notificacoes:[];
 }
