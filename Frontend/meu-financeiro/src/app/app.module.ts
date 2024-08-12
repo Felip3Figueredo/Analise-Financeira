@@ -25,6 +25,7 @@ const RxJS = [LoaderInterceptor, HTTPStatus];
   
   ],
   imports: [
+    BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
 
@@ -35,7 +36,7 @@ const RxJS = [LoaderInterceptor, HTTPStatus];
     ReactiveFormsModule,  
 
     NgxSpinnerModule,
-    BrowserAnimationsModule
+    
   ],
   providers: [
     AuthGuard,

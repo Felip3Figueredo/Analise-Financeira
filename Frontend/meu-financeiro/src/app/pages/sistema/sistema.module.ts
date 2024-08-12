@@ -4,7 +4,10 @@ import { NavbarModule } from '../../components/navbar/navbar.module';
 import { SidebarModule } from '../../components/sidebar/sidebar.module';
 import { SistemaComponent } from './sistema.component';
 import { SistemaRoutingModule } from './sistema-routing.module';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination'
+import { MatIconModule } from '@angular/material/icon'
+import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule(
     {
@@ -15,7 +18,11 @@ import { ReactiveFormsModule } from '@angular/forms';
             SistemaRoutingModule,
             NavbarModule,
             SidebarModule,
-            ReactiveFormsModule
+            ReactiveFormsModule,
+            NgxPaginationModule, 
+            MatIconModule,
+            FormsModule,
+            NgSelectModule
         ]
     }
 )

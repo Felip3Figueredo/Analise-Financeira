@@ -11,14 +11,75 @@ import { AuthService } from '../../services/auth.service';
   styleUrl: './sistema.component.scss'
 })
 export class SistemaComponent {
-  constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService, public authService: AuthService) {
+  //1 Listagem. 2 Cadastro. 3 Edição.
+  tipoTela: number = 1; 
+  tableListSistemas: Array<SistemaFinanceiro>;
 
+  id: string;
+  page : number = 1;
+  config: any;
+  paginacao: boolean = true;
+  itemsPorPagina: number = 10;
+
+  configpag() {
+    this.id = this.gerarIdParaConfigDePaginacao();
+
+    this.config = {
+      id: this.id,
+      currentPage: this.page,
+      itemsPerPage: this.itemsPorPagina
+    };
+  }
+
+  cadastro()
+  {
+    this.tipoTela = 2;
+    this.sistemaForm.reset;
+  }
+
+  mudarItemsPorPage() {
+    this.page = 1;
+    this.config.currentPage = this.page;
+    this.config.itemsPerPage = this.itemsPorPagina;
+  }
+
+  mudarPage(event: any) {
+    this.page = event;
+    this.config.currentPage = this.page;
+  }
+  
+  gerarIdParaConfigDePaginacao() {
+    var result = '';
+    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for (var i = 0; i < 10; i++) {
+      result += characters.charAt(Math.floor(Math.random() *
+        charactersLength));
+    }
+    return result;
+  }
+
+  ListaSistemasFinanceiro()
+  {
+    this.tipoTela = 1;
+
+    this.sistemaService.ListaSistemasUsuario(this.authService.getEmailUser())
+    .subscribe((response: Array<SistemaFinanceiro>) => {
+      this.tableListSistemas = response;
+      
+    }, (error) => console.error(error),
+      () => { })
+  }
+
+  constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService, public authService: AuthService) {
   }
 
   sistemaForm:FormGroup;
   
   ngOnInit() {
     this.menuService.menuSelecionado = 2
+    this.configpag();
+    this.ListaSistemasFinanceiro();
 
     this.sistemaForm = this.formBuilder.group
     (
