@@ -1,6 +1,6 @@
 export class Despesa {
-    Id: number;
-    Nome: string;
+    id: number;
+    nome: string;
     valor: number;
     mes: number;
     ano: number;

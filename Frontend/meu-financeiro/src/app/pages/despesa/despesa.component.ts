@@ -16,6 +16,68 @@ import { DespesaService } from '../../services/despesa.service';
   styleUrl: './despesa.component.scss'
 })
 export class DespesaComponent {
+
+    //1 Listagem. 2 Cadastro. 3 Edição.
+    tipoTela: number = 1; 
+    tableListDespesas: Array<Despesa>;
+  
+    id: string;
+    page : number = 1;
+    config: any;
+    paginacao: boolean = true;
+    itemsPorPagina: number = 10;
+  
+    configpag() {
+      this.id = this.gerarIdParaConfigDePaginacao();
+  
+      this.config = {
+        id: this.id,
+        currentPage: this.page,
+        itemsPerPage: this.itemsPorPagina
+      };
+    }
+  
+    cadastro()
+    {
+      this.tipoTela = 2;
+      this.despesaForm.reset;
+    }
+  
+    mudarItemsPorPage() {
+      this.page = 1;
+      this.config.currentPage = this.page;
+      this.config.itemsPerPage = this.itemsPorPagina;
+    }
+  
+    mudarPage(event: any) {
+      this.page = event;
+      this.config.currentPage = this.page;
+    }
+    
+    gerarIdParaConfigDePaginacao() {
+      var result = '';
+      var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+      var charactersLength = characters.length;
+      for (var i = 0; i < 10; i++) {
+        result += characters.charAt(Math.floor(Math.random() *
+          charactersLength));
+      }
+      return result;
+    }
+  
+    ListaDespesas()
+    {
+      this.tipoTela = 1;
+  
+      this.despesaService.ListarDespesaUsuario(this.authService.getEmailUser())
+      .subscribe((response: Array<Despesa>) => {
+        this.tableListDespesas = response;
+        
+      }, (error) => console.error(error),
+        () => { })
+    }
+  
+
   constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService, public authService: AuthService, public categoriaService: CategoriaService, public despesaService: DespesaService) {
 
   }
@@ -34,6 +96,8 @@ export class DespesaComponent {
   ngOnInit() {
     this.menuService.menuSelecionado = 4
 
+    this.configpag();
+    this.ListaDespesas();
     this.despesaForm = this.formBuilder.group
     (
       {
@@ -43,7 +107,7 @@ export class DespesaComponent {
         sistemaSelect:['', [Validators.required]],
         categoriaSelect:['', [Validators.required]]
       }
-    )
+    ),
 
     this.ListarCategoriaUsuario();
   }
@@ -63,8 +127,7 @@ export class DespesaComponent {
     var dados = this.dadosForm();
     let item = new Despesa();
     
-    item.Nome = dados["name"].value;
-    item.Id = 0
+    item.nome = dados["name"].value;
     item.valor = dados["valor"].value;
     item.pago = this.checked;
     item.dataVencimento = dados["data"].value;
@@ -73,8 +136,9 @@ export class DespesaComponent {
 
     this.despesaService.AdicionarDespesa(item)
     .subscribe((response: Despesa) => {
-  
+      
       this.despesaForm.reset();
+      this.ListaDespesas();
     }, (error) => console.error(error),
       () => { })
   }
@@ -88,7 +152,7 @@ export class DespesaComponent {
         response.forEach(x => {
           var item = new SelectModel();
           item.id = x.id.toString();
-          item.nome = x.nome.toLowerCase();
+          item.nome = x.nome;
 
           listaCategoria.push(item);
         });
