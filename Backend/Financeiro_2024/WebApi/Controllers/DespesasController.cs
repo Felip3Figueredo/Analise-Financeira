@@ -1,5 +1,6 @@
 ﻿using Domain.Interfaces.IDespesa;
 using Domain.Interfaces.InterfaceServicos;
+using Domain.Servicos;
 using Entities.Entidades;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -39,7 +40,9 @@ namespace WebApi.Controllers
         [Produces("application/json")]
         public async Task<object> AtualizarDespesa(Despesa despesa)
         {
-            return _DespesaService.AtualizarDespesa(despesa);
+            await _DespesaService.AtualizarDespesa(despesa);
+
+            return despesa;
         }
 
         [HttpGet("/api/ObterDespesa")]
