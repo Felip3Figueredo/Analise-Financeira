@@ -68,6 +68,7 @@ export class CategoriaComponent {
 
   ListaCategoriasUsuario()
   {
+    this.itemEdicao = null;
     this.tipoTela = 1;
 
     this.categoriaService.ListarCategoriaUsuario(this.authService.getEmailUser())
@@ -113,23 +114,45 @@ export class CategoriaComponent {
   {
     debugger
     var dados = this.dadosForm();
-    let item = new Categoria();
-    
-    item.nome = dados["name"].value;
-    item.id = 0
-    item.IdSistema = parseInt(this.sistemaSelect.id);
 
-    this.categoriaService.AdicionarCategoria(item)
-    .subscribe((response: Categoria) => {
+    if(this.itemEdicao) 
+    {    
+      this.itemEdicao.nome = dados["name"].value;
+      this.itemEdicao.idSistema = parseInt(this.sistemaSelect.id);
+      this.itemEdicao.nomePropriedade = "";
+      this.itemEdicao.mensagem = "";
+      this.itemEdicao.notificacoes = [];
   
-      this.categoriaForm.reset();
-
-      this.ListaCategoriasUsuario();
-    }, (error) => console.error(error),
-      () => { })
+      this.categoriaService.AtualizarCategoria(this.itemEdicao)
+      .subscribe((response: Categoria) => {
+    
+        this.categoriaForm.reset();
+  
+        this.ListaCategoriasUsuario();
+      }, (error) => console.error(error),
+        () => { })
+    }
+    else
+    {
+      let item = new Categoria();
+    
+      item.nome = dados["name"].value;
+      item.id = 0
+      item.idSistema = parseInt(this.sistemaSelect.id);
+  
+      this.categoriaService.AdicionarCategoria(item)
+      .subscribe((response: Categoria) => {
+    
+        this.categoriaForm.reset();
+  
+        this.ListaCategoriasUsuario();
+      }, (error) => console.error(error),
+        () => { })
+    }
   }
 
-  ListarSistemasUsuario() {
+  ListarSistemasUsuario(id: number = null) {
+
     this.sistemaService.ListaSistemasUsuario(this.authService.getEmailUser())
       .subscribe((response : Array<SistemaFinanceiro>) => {
         debugger
@@ -139,12 +162,35 @@ export class CategoriaComponent {
           var item = new SelectModel();
           item.id = x.id.toString().toLowerCase();
           item.nome = x.nome.toLowerCase();
-
           listaSistemafinanceiro.push(item);
+
+          if (id && id == x.id) {
+            this.sistemaSelect = item;
+          }
         });
 
         this.listSistemas = listaSistemafinanceiro;
         } 
       )
+  }
+
+  itemEdicao: Categoria;
+  edicao(id: number) {
+    this.categoriaService.ObterCategoria(id)
+      .subscribe((response: Categoria) => {
+          if(response) 
+          {
+            debugger
+            this.itemEdicao = response;
+            this.tipoTela = 2;
+
+            var dados = this.dadosForm();
+            dados["name"].setValue(this.itemEdicao.nome);
+            this.ListarSistemasUsuario(response.idSistema);
+          }
+        },
+      (error) => console.error(error),
+    () => {
+    })
   }
 }

@@ -100,7 +100,7 @@
                     <tr>
                         <td> Código </td>
                         <td> Nome </td>
-                        <td> Ação </td>
+                        <td> Editar </td>
                     </tr>
                 </thead>
                 
@@ -111,7 +111,7 @@
                         <td>{{item.id}}</td>
                         <td>{{item.nome}}</td>
 
-                        <td> Edit</td>
+                        <td (click)="edicao(item.id)"> Editar </td>
 
                     </tr>
                 </tbody>
