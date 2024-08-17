@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { SistemaFinanceiro } from '../../models/SistemaFinanceiro';
 import { SistemaService } from '../../services/sistema.service';
 import { AuthService } from '../../services/auth.service';
+import { UsuarioSistemaFinanceiro } from '../../services/usuario-sistema.service';
 
 @Component({
   selector: 'app-sistema',
@@ -21,6 +22,13 @@ export class SistemaComponent {
   paginacao: boolean = true;
   itemsPorPagina: number = 10;
 
+  id2: string;
+  page2 : number = 1;
+  config2: any;
+  paginacao2: boolean = true;
+  itemsPorPagina2: number = 10;
+  tableListUsuariosistema: Array<any>;
+
   configpag() {
     this.id = this.gerarIdParaConfigDePaginacao();
 
@@ -28,6 +36,14 @@ export class SistemaComponent {
       id: this.id,
       currentPage: this.page,
       itemsPerPage: this.itemsPorPagina
+    };
+
+    this.id2 = this.gerarIdParaConfigDePaginacao();
+
+    this.config2 = {
+      id: this.id2,
+      currentPage: this.page2,
+      itemsPerPage: this.itemsPorPagina2
     };
   }
 
@@ -48,6 +64,17 @@ export class SistemaComponent {
   mudarPage(event: any) {
     this.page = event;
     this.config.currentPage = this.page;
+  }
+
+  mudarItemsPorPage2() {
+    this.page = 1;
+    this.config.currentPage = this.page2;
+    this.config.itemsPerPage = this.itemsPorPagina2;
+  }
+
+  mudarPage2(event: any) {
+    this.page = event;
+    this.config.currentPage = this.page2;
   }
   
   gerarIdParaConfigDePaginacao() {
@@ -75,7 +102,7 @@ export class SistemaComponent {
       () => { })
   }
 
-  constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService, public authService: AuthService) {
+  constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService, public authService: AuthService, public usuarioSistemaFinanceiro: UsuarioSistemaFinanceiro) {
   }
 
   sistemaForm:FormGroup;
@@ -186,6 +213,8 @@ export class SistemaComponent {
           dados["mesCopia"].setValue(this.itemEdicao.mesCopia);
           dados["anoCopia"].setValue(this.itemEdicao.anoCopia);
 
+          this.ListarUsuariosSistema();
+
           this.checked = this.itemEdicao.gerarCopiaDespesa;
         }
       },
@@ -196,5 +225,52 @@ export class SistemaComponent {
 
   handleChangePago(item:any) {
     this.checked = item.checked as boolean;
+  }
+
+
+  emailUsuarioSistema: string = "";
+  emailUsuarioSistemaValid: boolean = true;
+  textValid: string = "Campo Obrigatório";
+
+  ListarUsuariosSistema()
+  {
+    this.usuarioSistemaFinanceiro.ListarUsuariosSistema(this.itemEdicao.id)
+      .subscribe((response : Array<any>) => {
+        debugger
+        this.tableListUsuariosistema = response
+      })
+  }
+
+  excluir(id: number) 
+  {
+    debugger
+    this.usuarioSistemaFinanceiro.DeletarUsuarioNoSistema(id)
+    .subscribe((response: SistemaFinanceiro) => {
+      if (response) {
+        debugger
+        this.edicao(this.itemEdicao.id);
+        this.emailUsuarioSistema = "";
+      }
+    },
+    (error) => console.error(error),
+    () => {})
+  }
+
+  addUsuarioSistema() {
+    this.emailUsuarioSistemaValid = true;
+
+    if (!this.emailUsuarioSistema) {
+      this.emailUsuarioSistemaValid = true;
+    }
+    else {
+      this.sistemaService.CadastrarUsuarioNoSistema(this.itemEdicao.id, this.emailUsuarioSistema)
+        .subscribe((response: any) => {
+          if(response) {
+            this.edicao(this.itemEdicao.id);
+            this.emailUsuarioSistema = "";
+          }
+        },
+       (error) => console.error(error), () => {})
+    }
   }
 }

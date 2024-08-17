@@ -22,7 +22,7 @@ namespace WebApi.Controllers
 
         [HttpGet("/api/ListarUsuariosSistema")]
         [Produces("application/json")]
-        public async Task<object> ListarSistemasUsuario (int IdSistema)
+        public async Task<object> ListarUsuariosSistema(int IdSistema)
         {
             return await _InterfaceUsuarioSistemaFinanceiro.ListaUsuariosSistemaFinanceiro(IdSistema);
         }

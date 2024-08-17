@@ -35,7 +35,7 @@ namespace Infra.Repositorio.Generics
         {
             using (var data = new ContextBase(_OptionsBuilder))
             {
-                data.Set<T>().Update(Objeto);
+                data.Set<T>().Remove(Objeto);
                 await data.SaveChangesAsync();
             }
         }
