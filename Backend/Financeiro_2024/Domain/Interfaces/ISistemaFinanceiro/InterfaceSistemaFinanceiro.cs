@@ -11,5 +11,7 @@ namespace Domain.Interfaces.ISistemaFinanceiro
     public interface InterfaceSistemaFinanceiro : InterfaceGeneric<SistemaFinanceiro>
     {
         Task<List<SistemaFinanceiro>> ListaSistemasUsuario(string emailUsuario);
+
+        Task<Boolean> ExecuteCopiaDespesasSistemaFinanceiro();
     }
 }
