@@ -35,4 +35,10 @@ export class DespesaService {
     {
         return this.httpClient.put<Despesa>(`${this.baseURL}/AtualizarDespesa`, despesa)
     }
+
+    CarregaGraficos(emailUsuario: string)
+    {
+        return this.httpClient.get(`${this.baseURL}/CarregarGraficos?emailUsuario=${emailUsuario}`)
+    }
+    
 }
