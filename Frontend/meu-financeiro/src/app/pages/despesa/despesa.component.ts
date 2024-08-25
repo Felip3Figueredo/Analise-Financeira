@@ -175,6 +175,7 @@ export class DespesaComponent {
         var listaCategoria = [];
 
         response.forEach(x => {
+          debugger
           var item = new SelectModel();
           item.id = x.id.toString();
           item.nome = x.nome;

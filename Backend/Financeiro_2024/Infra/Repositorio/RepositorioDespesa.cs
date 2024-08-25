@@ -23,13 +23,15 @@ namespace Infra.Repositorio
         {
             using (var banco = new ContextBase(_OptionBuilder))
             {
-                return await
+                var listaDespesas = await
                     (from s in banco.SistemaFinanceiros
                      join us in banco.UsuarioSistemaFinanceiros on s.Id equals us.IdSistema
                      join c in banco.Categoria on s.Id equals c.IdSistema
                      join d in banco.Despesa on c.Id equals d.IdCategoria
                      where us.EmailUsuario.Equals(emailUsuario) && s.Mes == d.Mes && s.Ano == d.Ano
                      select d).AsNoTracking().ToListAsync();
+                
+                return listaDespesas;
             }
         }
 

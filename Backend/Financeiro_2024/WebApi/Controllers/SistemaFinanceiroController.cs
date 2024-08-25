@@ -71,7 +71,7 @@ namespace WebApi.Controllers
             
         }
 
-        [HttpGet("/api/ExecuteCopiaDespesasSistemaFinanceiro")]
+        [HttpPost("/api/ExecuteCopiaDespesasSistemaFinanceiro")]
         [Produces("application/json")]
         public async Task<object> ExecuteCopiaDespesasSistemaFinanceiro()
         {

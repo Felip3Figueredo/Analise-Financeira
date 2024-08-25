@@ -24,7 +24,7 @@ namespace Entities.Entidades
 
         public bool Pago { get; set; }
 
-        public bool DespesaAtrasada { get; set; }
+        public bool? DespesaAtrasada { get; set; }
 
         [ForeignKey("Categoria")]
         [Column(Order = 1)]
