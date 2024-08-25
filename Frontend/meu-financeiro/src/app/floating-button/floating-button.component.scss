@@ -1,0 +1,28 @@
+.floating-button {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 1000; 
+  background-color: #3d3c3b; 
+  color: white; 
+  border: none; 
+  border-radius: 50%;
+  width: 60px; 
+  height: 60px; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer; 
+  transition: 0.054s;
+}
+
+h5{
+  margin: 0px;
+}
+
+.floating-button:hover {
+  width: 70px;
+  height: 70px;
+}

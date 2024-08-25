@@ -13,6 +13,8 @@ import { HTTPStatus, LoaderInterceptor } from './interceptor/loader.interceptor'
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { AuthGuard } from './pages/guards/auth-guard.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FloatingModule } from './floating-button/floating-button.module';
+import { FloatingButtonComponent } from './floating-button/floating-button.component';
 
 
 const RxJS = [LoaderInterceptor, HTTPStatus];
@@ -22,13 +24,12 @@ const RxJS = [LoaderInterceptor, HTTPStatus];
   declarations: [
     AppComponent,
     LoginComponent,
-  
+    FloatingButtonComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     AppRoutingModule,
-
     CommonModule,
     HttpClientModule,
 

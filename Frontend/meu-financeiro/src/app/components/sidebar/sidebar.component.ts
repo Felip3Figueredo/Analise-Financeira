@@ -1,23 +1,38 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MenuService } from '../../services/menu.service';
+import { SidebarService } from './sidebar.service';
 
 @Component({
   selector: 'sidebar',
   templateUrl: './sidebar.component.html',
-  styleUrl: './sidebar.component.scss'
+  styleUrls: ['./sidebar.component.scss']
 })
-export class SidebarComponent {
+export class SidebarComponent implements OnInit {
 
-  constructor(private router:Router, public menuService:MenuService) 
-  {
-    
+  isSidebarCollapsed = false;
+
+  constructor(private router: Router, public menuService: MenuService, private sidebarService: SidebarService, private elementRef: ElementRef ) {}
+
+  ngOnInit() {
+    this.sidebarService.sidebarCollapsed$.subscribe(collapsed => {
+      this.isSidebarCollapsed = collapsed;
+    });
   }
   
-  selectMenu(menu:number) 
-  {
-    switch (menu)
-    {
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent) {
+    const target = event.target as HTMLElement;
+
+    // Verifica se o clique foi fora da sidebar
+    if (!target.closest('.container-sidebar') && !target.closest('.floating-button')) {
+      this.sidebarService.setSidebarCollapsed(true);
+    }
+  }
+  
+  selectMenu(menu: number) {
+    this.menuService.menuSelecionado = menu;
+    switch (menu) {
       case 1:
         this.router.navigate(['/dashboard']);
         break;
@@ -29,6 +44,9 @@ export class SidebarComponent {
         break;
       case 4:
         this.router.navigate(['/despesa']);
+        break;
+      case 5:
+        this.router.navigate(['/usuario']);
         break;
       case 100: 
         localStorage.clear();

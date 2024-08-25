@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SidebarComponent } from './sidebar.component';
 
-
 @NgModule(
     {
         declarations: [SidebarComponent],
         imports: [CommonModule,
-            FormsModule],
+            FormsModule,
+            ],
+
         exports: [SidebarComponent]
     }
 )

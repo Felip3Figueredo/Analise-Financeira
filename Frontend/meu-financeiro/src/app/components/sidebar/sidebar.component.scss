@@ -1,41 +1,66 @@
-.container-sidebar 
-{
+.container-sidebar {
     position: fixed;
     padding-top: 72px;
-    width: 110px;
+    width: 15%;
     min-height: 700px;
-
     height: -webkit-fill-available;
-
-    background: #ffffff;
+    background: #3d3c3b;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-
-        .grupo-menu {
-        }
-
-        .container-icone-menu {
-            padding: 8px;
-        }
-
-        .caixa-menu {
-            width: 94px;
-            height: 42px;
-            border-radius: 4px;
-            background: rgba(128, 128, 128, 0.614);
-            
-            cursor: pointer;
-        } 
-
-        .caixa-menu-select {
-            background: #042b50 !important;
-        }
-        
-        .caixa-menu-texto {
-            font-size: 14px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fefefe;
-            font-weight: bold;
-        }
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    transition: width 0.3s, padding 0.3s; 
+    z-index: 2;
 }
+
+.grupo-menu {
+    width: 100%; 
+}
+
+.container-icone-menu {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-menu {
+    width: 94px;
+    height: 42px;
+    border-radius: 70px;
+    background: #dde3ca;
+    cursor: pointer;
+    transition: border 0.054s;
+}
+
+.caixa-menu-select {
+    background: #7c8071 !important;
+}
+
+.caixa-menu:hover {
+    border: 3px solid #ffffff;
+}
+
+.container-sidebar.collapsed {
+    width: 0px; 
+    padding: 0%;
+}
+
+.container-sidebar.collapsed .grupo-menu {
+    display: none; 
+  }
+
+  .container-sidebar.expanded {
+    width: 15%;
+    padding-top: 72px; 
+}
+
+
+.caixa-menu-texto {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3d3c3b;
+}
+
+

@@ -6,13 +6,13 @@
 
 
 
-
+// https://paletadecores.com/paleta/648285/b4a68e/080d0d/f3daaa/a3c4c2/
 
 body {
   font-family: "Poppins";
   margin: 0;
-  background: #3a78b3;
-
+  background: gray;
+  
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -55,20 +55,21 @@ label {
 }
 
 .container-base {
-  padding: 88px 16px 0px 128px;
+  padding: 88px 16px 0px 16px;
+  width: auto;
+  background-color: #b2d9f7;
 
   .content-page {
     background: white;
     padding: 16px;
     border-radius: 10px;
     min-height: 800px;
-    min-width: 325px;
   
     .card-header{
       z-index: 3 !important;
       width: 100%;
       height: 80px;
-      background-color: rgb(11, 11, 109);
+      background-color: #487aa1;
 
       box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
       border-radius: 8px;
@@ -254,4 +255,9 @@ table {
   color: #fefefe !important;
   cursor: default !important;
   border-radius: 5px !important;
+}
+
+.mostrar-drop {
+  position: relative;
+  z-index: 1;
 }

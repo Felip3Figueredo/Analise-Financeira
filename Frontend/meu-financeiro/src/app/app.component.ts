@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SidebarService } from './components/sidebar/sidebar.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'meu-financeiro-front';
+
+  constructor(public sidebarService:SidebarService){
+    
+  }
+
+  toggleSidebar() { 
+    this.sidebarService.toggleSidebar();
+  }
 }

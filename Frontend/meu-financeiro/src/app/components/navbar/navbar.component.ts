@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
+import { SidebarService } from '../sidebar/sidebar.service';
 
 @Component({
   selector: 'navbar',
@@ -9,29 +10,25 @@ import { AuthService } from '../../services/auth.service';
 })
 export class NavbarComponent {
 
-  constructor(public formBuilder: FormBuilder, public authService: AuthService){
+  constructor(public formBuilder: FormBuilder, public authService: AuthService, private sidebarService: SidebarService){
     
   }
 
-  navbarForm:FormGroup
+  navbarForm: FormGroup;
 
-  dadosForm() 
-  {
+  dadosForm() {
     return this.navbarForm.controls;
   }
 
   ngOnInit() {
-    this.navbarForm = this.formBuilder.group
-    (
-      {
-        nome:['', [Validators.required]],
-      }
-    )
+    this.navbarForm = this.formBuilder.group({
+      nome: ['', [Validators.required]],
+    });
     this.usuarioLogado();
   }
 
+
   usuarioLogado(){
-    debugger
     var dados = this.dadosForm();
     var email = this.authService.getEmailUser();
     dados["nome"].setValue(email);

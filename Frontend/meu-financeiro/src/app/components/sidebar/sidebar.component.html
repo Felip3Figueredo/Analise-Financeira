@@ -1,5 +1,4 @@
-<div class="container-sidebar ">
-
+<div class="container-sidebar" [ngClass]="{'collapsed': isSidebarCollapsed, 'expanded': !isSidebarCollapsed}">
     <div class="grupo-menu">
         <div class="container-icone-menu">
             <div class="caixa-menu caixa-menu-texto" (click)="selectMenu(1)"
@@ -38,9 +37,20 @@
 
     <div class="grupo-menu">
         <div class="container-icone-menu">
+            <div class="caixa-menu caixa-menu-texto" (click)="selectMenu(5)"
+                [ngClass]="{'caixa-menu-select': this.menuService.menuSelecionado == 5, '':this.menuService.menuSelecionado!= 5}">
+                Usuarios
+            </div>
+        </div>
+    </div>
+
+    <div class="grupo-menu">
+        <div class="container-icone-menu">
             <div class="caixa-menu caixa-menu-texto"
                 (click)="selectMenu(100)"> Sair
             </div>
         </div>
     </div>
+
 </div>
+
