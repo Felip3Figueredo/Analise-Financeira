@@ -23,14 +23,29 @@ namespace Infra.Repositorio
         {
             using (var banco = new ContextBase(_OptionBuilder))
             {
-                var teste = await
+                var categoria = await
                     (from s in banco.SistemaFinanceiros
                      join us in banco.UsuarioSistemaFinanceiros on s.Id equals us.IdSistema
                      join c in banco.Categoria on s.Id equals c.IdSistema                     
                      where us.EmailUsuario.Equals(emailUsuario) && us.SistemaAtual
                      select c).AsNoTracking().ToListAsync();
 
-                return teste;
+                return categoria;
+            }
+        }
+
+        public async Task<List<Categoria>> ListarCategoriasPorSistema(int id)
+        {
+            using (var banco = new ContextBase(_OptionBuilder))
+            {
+                var categoria = await
+                    (from s in banco.SistemaFinanceiros
+                     join us in banco.UsuarioSistemaFinanceiros on s.Id equals us.IdSistema
+                     join c in banco.Categoria on s.Id equals c.IdSistema
+                     where s.Id.Equals(id) && us.SistemaAtual
+                     select c).AsNoTracking().ToListAsync();
+
+                return categoria;
             }
         }
     }

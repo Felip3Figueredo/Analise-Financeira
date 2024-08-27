@@ -20,9 +20,12 @@ namespace Infra.Configuracao
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured) 
+            if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(ObtenhaStringConexao());
+                optionsBuilder.UseNpgsql(
+                    "Host=localhost;Port=5432;Database=FINANCEIRO_2024;Username=postgres;Password=Murilo1023@"
+                );
+
                 base.OnConfiguring(optionsBuilder);
             }
         }
@@ -30,13 +33,15 @@ namespace Infra.Configuracao
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
-
+            builder.Entity<Despesa>()
+                   .Property(d => d.Valor)
+                   .HasColumnType("decimal(18,2)");
             base.OnModelCreating(builder);
         }
 
         public string ObtenhaStringConexao()
         {
-            return "Server=localhost\\SQLEXPRESS;Database=FINANCEIRO_2024;User Id=sa;Password=Murilo1023@;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            return "Host=localhost;Port=5432;Database=FINANCEIRO_2024;Username=postgres;Password=Murilo1023@";
 
         }
     }

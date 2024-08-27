@@ -35,4 +35,11 @@ export class CategoriaService {
     {
         return this.httpClient.put<Categoria>(`${this.baseURL}/AtualizarCategoria`, categoria)
     }
+
+    DeletarCategoria (id: number)
+    {
+        return this.httpClient.delete<Categoria>(`${this.baseURL}/DeletarCategoria?id=${id}`)
+    }
+
+    
 }

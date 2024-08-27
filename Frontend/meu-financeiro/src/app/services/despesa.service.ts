@@ -2,6 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { environment } from "../../environment";
 import { Despesa } from "../models/Despesa";
+import { Categoria } from "../models/Categoria";
 
 @Injectable({
     providedIn: 'root'
@@ -39,6 +40,16 @@ export class DespesaService {
     CarregaGraficos(emailUsuario: string)
     {
         return this.httpClient.get(`${this.baseURL}/CarregarGraficos?emailUsuario=${emailUsuario}`)
+    }
+
+    DeletarDespesa(id: number)
+    {
+        return this.httpClient.delete<Despesa>(`${this.baseURL}/DeletarDespesa?id=${id}`)
+    }
+
+    ListarDespesasPorCategoria(id: number)
+    {
+        return this.httpClient.get<Categoria>(`${this.baseURL}/ListarDespesasPorCategoria?id=${id}`)
     }
     
 }

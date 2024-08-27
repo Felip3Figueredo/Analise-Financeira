@@ -11,5 +11,7 @@ namespace Domain.Interfaces.ICategoria
     public interface InterfaceCategoria : InterfaceGeneric<Categoria>
     {
         Task <List<Categoria>> ListarCategoriaUsuario(string emailUsuario);
+
+        Task<List<Categoria>> ListarCategoriasPorSistema(int id);
     }
 }

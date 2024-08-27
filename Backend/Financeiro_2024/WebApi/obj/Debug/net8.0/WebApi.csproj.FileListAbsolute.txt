@@ -184,3 +184,5 @@ D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\WebApi\bin\Debug\n
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\WebApi\bin\Debug\net8.0\Domain.pdb
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\WebApi\bin\Debug\net8.0\Entities.pdb
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\WebApi\bin\Debug\net8.0\Npgsql.dll
+D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\WebApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

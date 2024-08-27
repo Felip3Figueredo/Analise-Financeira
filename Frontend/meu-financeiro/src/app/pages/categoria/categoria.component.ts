@@ -7,6 +7,7 @@ import { SistemaFinanceiro } from '../../models/SistemaFinanceiro';
 import { AuthService } from '../../services/auth.service';
 import { CategoriaService } from '../../services/categoria.service';
 import { Categoria } from '../../models/Categoria';
+import { DespesaService } from '../../services/despesa.service';
 
 @Component({
   selector: 'app-categoria',
@@ -79,7 +80,12 @@ export class CategoriaComponent {
       () => { })
   }
 
-  constructor (public menuService: MenuService, public formBuilder: FormBuilder, public sistemaService: SistemaService, public authService: AuthService, public categoriaService : CategoriaService) {
+  constructor (public menuService: MenuService
+    , public formBuilder: FormBuilder
+    , public sistemaService: SistemaService
+    , public authService: AuthService
+    , public categoriaService : CategoriaService
+    , public despesaService: DespesaService) {
 
   }
 
@@ -192,5 +198,25 @@ export class CategoriaComponent {
       (error) => console.error(error),
     () => {
     })
+  }
+
+  deletar(id:number)
+  {
+    debugger
+    var despesasPorCategoria = this.despesaService.ListarDespesasPorCategoria(id);
+
+    despesasPorCategoria.forEach(x => 
+      {
+        this.despesaService.DeletarDespesa(x.id);
+      } 
+    );
+
+
+    this.categoriaService.DeletarCategoria(id)
+      .subscribe((response: any) => {
+        this.ListaCategoriasUsuario();
+      },
+      (error) => console.log(error), () => {} 
+      )
   }
 }

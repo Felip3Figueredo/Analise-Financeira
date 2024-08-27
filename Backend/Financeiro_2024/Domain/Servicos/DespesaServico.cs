@@ -7,6 +7,9 @@ using Domain.Interfaces.ICategoria;
 using Domain.Interfaces.IDespesa;
 using Domain.Interfaces.InterfaceServicos;
 using Entities.Entidades;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Domain.Servicos
 {

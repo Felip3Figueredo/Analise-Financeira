@@ -127,6 +127,7 @@ export class DespesaComponent {
     var dados = this.dadosForm();
     debugger
     if (this.itemEdicao) {
+      var data = new Date();
 
       this.itemEdicao.nome = dados["name"].value;
       this.itemEdicao.valor = dados["valor"].value;
@@ -138,6 +139,16 @@ export class DespesaComponent {
       this.itemEdicao.nomePropriedade = "";
       this.itemEdicao.mensagem = "";
       this.itemEdicao.notificacoes = [];
+      
+      var dataAtual = new Date(data.getFullYear(), data.getMonth(), data.getDate());
+
+      if (dataAtual > this.itemEdicao.dataVencimento && this.itemEdicao.pago == false)
+        {
+          this.itemEdicao.despesaAtrasada = true;
+        }else
+        {
+          this.itemEdicao.despesaAtrasada = false;
+        }
 
       this.despesaService.AtualizarDespesa(this.itemEdicao)
         .subscribe((response: Despesa) => {
@@ -150,13 +161,24 @@ export class DespesaComponent {
 
     }
     else {
+      var data = new Date();
       let item = new Despesa();
       item.nome = dados["name"].value;
       item.valor = dados["valor"].value;
       item.pago = this.checked;
-      item.dataVencimento = dados["data"].value;
+      item.dataVencimento = new Date(dados["data"].value);
       item.idCategoria = parseInt(this.categoriaSelect.id);
       item.tipoDespesa = 1
+
+      var dataAtual = new Date(data.getFullYear(), data.getMonth(), data.getDate());
+
+      if (dataAtual > item.dataVencimento && item.pago == false)
+      {
+        item.despesaAtrasada = true;
+      }else
+      {
+        item.despesaAtrasada = false;
+      }
 
       this.despesaService.AdicionarDespesa(item)
         .subscribe((response: Despesa) => {
@@ -189,6 +211,14 @@ export class DespesaComponent {
         this.listCategorias = listaCategoria;
         } 
       )
+  }
+
+  DeletarDespesa(id:number)
+  {
+    this.despesaService.DeletarDespesa(id)
+      .subscribe((response: any) => {
+        this.ListaDespesas();
+      })
   }
 
   itemEdicao: Despesa;

@@ -13,5 +13,7 @@ namespace Domain.Interfaces.IDespesa
         Task <List<Despesa>> ListaDespesaUsuario (string emailUsuario);
 
         Task <List<Despesa>> ListarDespesasUsuarioNaoPagasMesesAnteriores (string emailUsuario);
+
+        Task<List<Despesa>> ListarDespesasPorCategoria(int id);
     }
 }

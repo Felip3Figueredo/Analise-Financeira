@@ -24,7 +24,15 @@ namespace WebApi.Controllers
         public async Task<IActionResult> ListarCategoriaUsuario(string emailUsuario)
         {
             var categorias = await _InterfaceCategoria.ListarCategoriaUsuario(emailUsuario);
-            return Ok(categorias);  // Properly wrap the result in an IActionResult
+            return Ok(categorias);  
+        }
+
+        [HttpGet("/api/ListarCategoriasPorSistema")]
+        [Produces("application/json")]
+        public async Task<IActionResult> ListarCategoriasPorSistema(int id)
+        {
+            var categorias = await _InterfaceCategoria.ListarCategoriasPorSistema(id);
+            return Ok(categorias);  
         }
 
         [HttpPost("/api/AdicionarCategoria")]
@@ -52,7 +60,7 @@ namespace WebApi.Controllers
             return await _InterfaceCategoria.GetEntityById(id);
         }
 
-        [HttpDelete("/api/ObterCategoria")]
+        [HttpDelete("/api/DeletarCategoria")]
         [Produces("application/json")]
         public async Task<object> DeletarCategoria(int id)
         {

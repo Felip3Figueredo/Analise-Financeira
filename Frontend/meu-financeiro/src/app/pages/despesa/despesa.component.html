@@ -101,6 +101,7 @@
                         <td> Código </td>
                         <td> Nome </td>
                         <td> Editar </td>
+                        <td> Excluir</td>
                     </tr>
                 </thead>
                 
@@ -112,7 +113,7 @@
                         <td>{{item.nome}}</td>
 
                         <td (click)="edicao(item.id)"> Editar </td>
-
+                        <td (click)="DeletarDespesa(item.id)"> Excluir </td>
                     </tr>
                 </tbody>
             </table>
