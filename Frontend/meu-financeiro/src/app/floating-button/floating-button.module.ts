@@ -8,13 +8,11 @@ import { SidebarModule } from '../components/sidebar/sidebar.module';
 @NgModule(
     {
         providers:[],
-        declarations:[],
+        declarations:[FloatingButtonComponent],
         imports:[
             CommonModule,
-            FloatingRoutingModule,
-            NavbarModule,
-            SidebarModule
-        ]
+        ],
+        exports:[FloatingButtonComponent]
     }
 )
 

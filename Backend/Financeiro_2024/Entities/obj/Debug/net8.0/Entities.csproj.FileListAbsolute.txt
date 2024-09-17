@@ -26,3 +26,18 @@ D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Entities\obj\Debug
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\ref\Entities.dll
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\bin\Debug\net8.0\Entities.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\bin\Debug\net8.0\Entities.pdb
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.pdb
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Entities\obj\Debug\net8.0\ref\Entities.dll

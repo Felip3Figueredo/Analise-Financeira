@@ -8,6 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { MatIconModule } from '@angular/material/icon';
+import { FloatingModule } from '../../floating-button/floating-button.module';
 
 @NgModule(
     {
@@ -24,7 +25,7 @@ import { MatIconModule } from '@angular/material/icon';
             NgxPaginationModule, 
             MatIconModule,
             FormsModule,
-            NgSelectModule
+            FloatingModule
         ]
     }
 )

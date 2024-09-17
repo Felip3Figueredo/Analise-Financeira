@@ -4638,19 +4638,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\felip\\.nuget\\packages\\": {}
+    "C:\\Users\\felipe.aguiar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Infra.csproj",
+      "projectUniqueName": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\Infra.csproj",
       "projectName": "Infra",
-      "projectPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Infra.csproj",
-      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\obj\\",
+      "projectPath": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\Infra.csproj",
+      "packagesPath": "C:\\Users\\felipe.aguiar\\.nuget\\packages\\",
+      "outputPath": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felipe.aguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4665,11 +4665,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Domain\\Domain.csproj"
+            "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Domain\\Domain.csproj"
             },
-            "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Entities\\Entities.csproj"
+            "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Entities\\Entities.csproj"
             }
           }
         }
@@ -4732,7 +4732,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

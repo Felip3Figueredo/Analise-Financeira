@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard.component';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { NavbarModule } from '../../components/navbar/navbar.module';
 import { SidebarModule } from '../../components/sidebar/sidebar.module';
+import { FloatingModule } from '../../floating-button/floating-button.module';
 
 @NgModule(
     {
@@ -13,7 +14,8 @@ import { SidebarModule } from '../../components/sidebar/sidebar.module';
             CommonModule,
             DashboardRoutingModule,
             NavbarModule,
-            SidebarModule
+            SidebarModule,
+            FloatingModule
         ]
     }
 )

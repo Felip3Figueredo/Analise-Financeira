@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Domain
-build_property.ProjectDir = D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Domain\
+build_property.ProjectDir = D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

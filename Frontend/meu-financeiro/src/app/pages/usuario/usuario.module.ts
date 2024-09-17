@@ -10,6 +10,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { FloatingModule } from '../../floating-button/floating-button.module';
 
 @NgModule(
     {
@@ -21,6 +22,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
             NavbarModule,
             SidebarModule,
             ReactiveFormsModule,
+            FloatingModule,
 
             NgxPaginationModule,
             FormsModule,

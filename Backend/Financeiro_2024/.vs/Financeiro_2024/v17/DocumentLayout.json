@@ -1,26 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\",
+  "WorkspaceRootPath": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826044330_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infra\\Migrations\\20240826044330_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\webapi\\controllers\\despesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\despesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EEC7B26-BEDE-49DD-AE24-253AB8DBC654}|Infra\\Infra.csproj|d:\\desenvolvimento\\analise-financeira\\backend\\financeiro_2024\\infra\\configuracao\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\webapi\\models\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\webapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419218C6-EAD3-495C-BFFF-0BE6261719AE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEC7B26-BEDE-49DD-AE24-253AB8DBC654}|Infra\\Infra.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\infra\\migrations\\20240826044330_bancopostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EEC7B26-BEDE-49DD-AE24-253AB8DBC654}|Infra\\Infra.csproj|solutionrelative:infra\\migrations\\20240826044330_bancopostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEC7B26-BEDE-49DD-AE24-253AB8DBC654}|Infra\\Infra.csproj|d:\\desenvolvimentos console\\projeto\\backend\\financeiro_2024\\infra\\configuracao\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EEC7B26-BEDE-49DD-AE24-253AB8DBC654}|Infra\\Infra.csproj|solutionrelative:infra\\configuracao\\contextbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043925_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infra\\Migrations\\20240826043925_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043925_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043759_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infra\\Migrations\\20240826043759_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043759_BancoPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,67 +53,137 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240826044330_BancoPostgres.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826044330_BancoPostgres.cs",
-              "RelativeDocumentMoniker": "Infra\\Migrations\\20240826044330_BancoPostgres.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826044330_BancoPostgres.cs",
-              "RelativeToolTip": "Infra\\Migrations\\20240826044330_BancoPostgres.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBIAAABNAAAA",
+              "Title": "DespesasController.cs",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Controllers\\DespesasController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\DespesasController.cs",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Controllers\\DespesasController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\DespesasController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T04:43:31.265Z",
+              "WhenOpened": "2024-09-17T15:30:41.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputModel.cs",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Models\\InputModel.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\InputModel.cs",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Models\\InputModel.cs",
+              "RelativeToolTip": "WebApi\\Models\\InputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:29:04.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T15:28:50.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApi",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-17T15:28:46.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CategoriaController.cs",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T10:43:35.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240826044330_BancoPostgres.cs",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826044330_BancoPostgres.cs",
+              "RelativeDocumentMoniker": "Infra\\Migrations\\20240826044330_BancoPostgres.cs",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826044330_BancoPostgres.cs",
+              "RelativeToolTip": "Infra\\Migrations\\20240826044330_BancoPostgres.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:43:31.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAEwBsAAAAAAAAA",
+              "ViewState": "AgIAABUAAAAAAAAAAAAEwCEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T04:42:57.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "20240826043925_BancoPostgres.cs",
               "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043925_BancoPostgres.cs",
-              "RelativeDocumentMoniker": "Infra\\Migrations\\20240826043925_BancoPostgres.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043925_BancoPostgres.cs",
               "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043925_BancoPostgres.cs",
-              "RelativeToolTip": "Infra\\Migrations\\20240826043925_BancoPostgres.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043925_BancoPostgres.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T04:39:25.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T04:39:25.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ContextBase.cs",
-              "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Configuracao\\ContextBase.cs",
+              "DocumentMoniker": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\Configuracao\\ContextBase.cs",
               "RelativeDocumentMoniker": "Infra\\Configuracao\\ContextBase.cs",
-              "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Configuracao\\ContextBase.cs",
+              "ToolTip": "D:\\Desenvolvimentos Console\\Projeto\\Backend\\Financeiro_2024\\Infra\\Configuracao\\ContextBase.cs",
               "RelativeToolTip": "Infra\\Configuracao\\ContextBase.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAA5wB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T04:38:23.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T04:38:23.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "20240826043759_BancoPostgres.cs",
               "DocumentMoniker": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043759_BancoPostgres.cs",
-              "RelativeDocumentMoniker": "Infra\\Migrations\\20240826043759_BancoPostgres.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043759_BancoPostgres.cs",
               "ToolTip": "D:\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043759_BancoPostgres.cs",
-              "RelativeToolTip": "Infra\\Migrations\\20240826043759_BancoPostgres.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desenvolvimento\\Analise-Financeira\\Backend\\Financeiro_2024\\Infra\\Migrations\\20240826043759_BancoPostgres.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAQwBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T04:38:00.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T04:38:00.059Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 973,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

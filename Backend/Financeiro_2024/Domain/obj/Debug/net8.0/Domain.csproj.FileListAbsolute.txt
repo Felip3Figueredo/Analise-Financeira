@@ -28,3 +28,21 @@ D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Domain\bin\Debug\n
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
 D:\Desenvolvimento\Analise-Financeira\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\bin\Debug\net8.0\Domain.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\bin\Debug\net8.0\Entities.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\bin\Debug\net8.0\Entities.pdb
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\Desenvolvimentos Console\Projeto\Backend\Financeiro_2024\Domain\obj\Debug\net8.0\ref\Domain.dll
